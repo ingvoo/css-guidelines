@@ -9,7 +9,7 @@ Use two spaces or one tab for indentation
 p {
 	color: deepskyblue;
 }
-``
+```
 
 One selector per line:
 
@@ -28,13 +28,13 @@ Comments should always appear on a separate line and always top and never behind
 Leave a space after a colon:
 
 ```css
-color: #efefef;
+	color: #efefef;
 ```
 
 Use color shortcodes whenever possible because it is more readable:
 
 ```css
-color: #000;
+	color: #000;
 ```
 
 ##Declaration order
