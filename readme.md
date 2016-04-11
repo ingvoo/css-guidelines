@@ -9,7 +9,7 @@ Use two spaces or one tab for indentation
 p {
 	color: deepskyblue;
 }
-``
+```
 
 One selector per line:
 ```
