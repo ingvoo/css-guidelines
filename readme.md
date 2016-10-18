@@ -76,3 +76,5 @@ color: #000;
   opacity: 1;
 }
 ```
+
+You can also use a tool such as [css comb](http://csscomb.com/).
