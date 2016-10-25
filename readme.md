@@ -39,6 +39,7 @@ color: #000;
 
 ##Declaration order
 
+It is a good practise to write CSS in some order. Alternatively you can use a tool such as [css comb](http://csscomb.com/).
 
 ```css
 .selector {
@@ -77,4 +78,12 @@ color: #000;
 }
 ```
 
-You can also use a tool such as [css comb](http://csscomb.com/).
+## Tips
+
+Never use `id`s for styling, it simply makes things more complicated. Use classes. 
+
+If a classname has any JavaScript attached to it prefix it with `js-` and make sure you do not style that class as well.
+ 
+Use BEM. If you do not like BEM come up with another naming scheme and stick with it. 
+
+Learn itcss. 
