@@ -11,27 +11,27 @@ p {
 }
 ```
 
-One selector per line:
+One selector per line
 
 ```css
 p,
 li {}
 ```
 
-Comments should always appear on a separate line and always top and never behind the declaration:
+Comments should always appear above what it describes and on a separate line (never behind a declaration)
 
 ```css
 /* Module */
 .box {}
 ```
 
-Leave a space after a colon:
+Leave a space after colons
 
 ```css
 color: #efefef;
 ```
 
-Use color shortcodes whenever possible because it is more readable:
+Use color shortcodes whenever possible:
 
 ```css
 color: #000;
@@ -39,7 +39,7 @@ color: #000;
 
 ##Declaration order
 
-It is a good practise to write CSS in some order. Alternatively you can use a tool such as [css comb](http://csscomb.com/).
+It is a good practise to write CSS in some order. Alternatively you can use a tool such as [css comb](http://csscomb.com/). 
 
 ```css
 .selector {
@@ -84,6 +84,4 @@ Never use `id`s for styling, it simply makes things more complicated. Use classe
 
 If a classname has any JavaScript attached to it prefix it with `js-` and make sure you do not style that class as well.
  
-Use BEM. If you do not like BEM come up with another naming scheme and stick with it. 
-
-Learn itcss. 
+Use BEM. If you do not like BEM come up with another naming scheme or system and stick with it. 
