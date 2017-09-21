@@ -37,7 +37,7 @@ Use color shortcodes whenever possible:
 color: #000;
 ```
 
-##Declaration order
+## Declaration order
 
 It is a good practise to write CSS in some order. Alternatively you can use a tool such as [css comb](http://csscomb.com/). 
 
