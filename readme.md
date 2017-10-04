@@ -1,6 +1,5 @@
 # CSS Guidelines
 
-
 ## Basics
 
 Use two spaces or one tab for indentation
@@ -79,9 +78,7 @@ It is a good practise to write CSS in some order. Alternatively you can use a to
 ```
 
 ## Tips
-
-Never use `id`s for styling, it simply makes things more complicated. Use classes. 
-
-If a classname has any JavaScript attached to it prefix it with `js-` and make sure you do not style that class as well.
- 
-Use BEM. If you do not like BEM come up with another naming scheme or system and stick with it. 
+- Never use `id`s for styling
+- Never style a class that is prefixed with `js-` such as `js-main-nav`
+- Never style `data` attributes. They are for data not styling.
+- Stick with one naming convention or use BEM
