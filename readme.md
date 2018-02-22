@@ -2,14 +2,6 @@
 
 ## Basics
 
-Use two spaces or one tab for indentation
-
-```css
-p {
-  color: deepskyblue;
-}
-```
-
 One selector per line
 
 ```css
@@ -30,7 +22,7 @@ Leave a space after colons
 color: #efefef;
 ```
 
-Use color shortcodes whenever possible:
+Always use color shortcodes when possible:
 
 ```css
 color: #000;
@@ -38,7 +30,8 @@ color: #000;
 
 ## Declaration order
 
-It is a good practise to write CSS in some order. Alternatively you can use a tool such as [css comb](http://csscomb.com/). 
+It is a good practise to write CSS in some order. 
+_Alternatively you can use a tool such as [css comb](http://csscomb.com/)._ 
 
 ```css
 .selector {
@@ -52,12 +45,18 @@ It is a good practise to write CSS in some order. Alternatively you can use a to
   z-index: 100;
 
   /* Box-model */
-  display: block;
+  display: flex;
+  flex-direction: column;
+  align-item: center:
+  justify-content: space-between:
+  
+  /* of course you would not want to try to float anything when using flexbox ;) */
   float: right;
   margin: 0;
   padding: 0;
   width: 100%;
   height: auto;
+  border-box: content-box;
 
   /* Typography */
   font: normal 13px "Helvetica Neue", sans-serif;
@@ -77,8 +76,19 @@ It is a good practise to write CSS in some order. Alternatively you can use a to
 }
 ```
 
-## Tips
+### Pseudo elements
+
+```css
+selector::before, 
+selector::after {
+  content: '';
+  ...
+}
+```
+
+## Extra tips
+
 - Never use `id`s for styling
-- Never style a class that is prefixed with `js-` such as `js-main-nav`
+- Never style a data attribute or class that is prefixed with `js-` (ex. `js-main-nav`)
 - Never style `data` attributes. They are for data not styling.
-- Stick with one naming convention or use BEM
+- Stick with a naming convention for example [BEM](http://getbem.com/naming/)
