@@ -1,5 +1,7 @@
 # CSS Guidelines
 
+This document are my set of rules when writing CSS. Also worh mentioning [CSS Guidlines](https://cssguidelin.es/) which I highly recommend reading.
+
 ## Basics
 
 One selector per line
