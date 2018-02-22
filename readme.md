@@ -49,10 +49,10 @@ _Alternatively you can use a tool such as [css comb](http://csscomb.com/)._
   /* Box-model */
   display: flex;
   flex-direction: column;
-  align-item: center:
-  justify-content: space-between:
+  align-item: center;
+  justify-content: space-between:;
   
-  /* of course you would not want to try to float anything when using flexbox ;) */
+  /* Of course you wouldn't want to try to float anything when using flexbox ;) */
   float: right;
   margin: 0;
   padding: 0;
